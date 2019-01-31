@@ -12,4 +12,10 @@ public class MyService {
     public void delete(Map map) {
         System.out.println("delete " + map);
     }
+    public void findById(String id) {
+        System.out.println("findById " + id);
+    }
+    public void findAll(Map map) {
+        System.out.println("findAll " + map);
+    }
 }
